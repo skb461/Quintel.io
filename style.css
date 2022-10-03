@@ -1,0 +1,55 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body
+{
+  background: #f6f4f8;
+}
+#manu1
+{
+  background: #fff;
+  border-radius: 10px;
+}
+.nav-item_h:hover
+{
+  border-bottom: 2px solid #0016e2;
+  border-radius: 2px;
+}
+/* home page */
+.services_card
+{
+  transition: all 1s ease-in-out;
+}
+.services_card:hover
+{
+  transition: all 1s ease-in-out;
+  background: linear-gradient(0deg, rgba(4,0,64,1) 0%, rgba(104,184,179,1) 35%, rgba(255,255,255,0) 100%);
+}
+
+.about
+{
+  font-size: 20px;
+  letter-spacing: .3px;
+  line-height: 35px;
+}
+
+.content_top
+{
+  border: 2px solid #0016e2;
+  border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .dashboard{
+    display: none;
+  }
+}
